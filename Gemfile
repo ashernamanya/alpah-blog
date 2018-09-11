@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
-ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.4p301' # declaring ruby version
+ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.4' # declaring ruby version
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
