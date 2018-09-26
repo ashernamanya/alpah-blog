@@ -11,7 +11,7 @@ default: &default
 
 development:
   <<: *default
-  adapter:db/development.sqlite3
+  adapter:postgresql
   host: localhost
   database: alpah-blog
   username: asher
